@@ -20,7 +20,7 @@ func main() {
 	// Основной код
 	cfg := elasticsearch.Config{
 		Addresses: []string{
-			"http://ipev2-phd-access-es-01p.data.corp:9200/",
+			"http://localhost:9200/",
 		},
 	}
 
